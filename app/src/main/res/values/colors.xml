@@ -3,4 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+<<<<<<< 0a57ccaea338d43e7927bab9eb1394cf6a65c762
+=======
+    <color name="reveal_color">#1b000000</color>
+    <color name="light_green">#0ac39e</color>
+>>>>>>> init
 </resources>

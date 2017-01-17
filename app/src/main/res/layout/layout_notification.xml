@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/light_green"
+    android:id="@+id/ll_custom_notification"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+
+    <ImageView
+        android:id="@+id/img_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="centerInside" />
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="TextView"
+            android:textColor="@android:color/white"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/text_open_notification_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/common_bkg"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="good morning 2017"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>
