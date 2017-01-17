@@ -1,27 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< 0a57ccaea338d43e7927bab9eb1394cf6a65c762
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-=======
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
->>>>>>> init
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< 0a57ccaea338d43e7927bab9eb1394cf6a65c762
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.hm.remoteviewdemo.MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
-</RelativeLayout>
-=======
-    tools:context="com.hm.remoteviewdemo.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -43,4 +31,3 @@
 
 
 </ScrollView>
->>>>>>> init
